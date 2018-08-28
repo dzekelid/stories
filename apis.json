@@ -1,0 +1,147 @@
+{
+	"name": "Streadata.io API Gallery - Stories",
+	"description": "This is a repository of stories APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/stories.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://stories.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Stories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NewsCred",
+			"x-api-slug": "newscred",
+			"description": "NewsCred is the leading enterprise content marketing company. NewsCred delivers content marketing solutions that drive business results for top brands",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg",
+			"humanURL": "http://newscred.com",
+			"baseURL": "https://api.newscred.com//",
+			"tags": "Stories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/newscred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Wattpad",
+			"x-api-slug": "wattpad",
+			"description": "Wattpad is the best place to read and share stories.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1683-wattpad.jpg",
+			"humanURL": "http://www.wattpad.com/api_doc",
+			"baseURL": "https:///",
+			"tags": "Stories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/wattpad/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pivotal Tracker",
+			"x-api-slug": "pivotal-tracker",
+			"description": "Pivotal Tracker is the agile project management tool of choice for developers around the world for real-time collaboration around a shared, prioritized backlog.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg",
+			"humanURL": "http://pivotaltracker.com",
+			"baseURL": "https://www.pivotaltracker.com//services/v3/",
+			"tags": "Stories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/pivotal-tracker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steller",
+			"x-api-slug": "steller",
+			"description": "",
+			"image": "",
+			"humanURL": "https://steller.co/",
+			"baseURL": "https:///",
+			"tags": "Stories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/steller/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aylien",
+			"x-api-slug": "aylien",
+			"description": "Text Analysis API | Natural Language Processing",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20034-aylien.jpg",
+			"humanURL": "http://aylien.com/",
+			"baseURL": "https://api.newsapi.aylien.com//api/v1",
+			"tags": "Stories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/aylien/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hacker News",
+			"x-api-slug": "hacker-news",
+			"description": "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by Paul Grahams investment fund and startup incubator, Y Combinator.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hn-246x0w.jpg",
+			"humanURL": "https://news.ycombinator.com/",
+			"baseURL": "https://hacker-news.firebaseio.com//v0",
+			"tags": "Stories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/hacker-news/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Stories",
+	"include": [
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "NewsCred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/newscred/apis.yaml"
+		},
+		{
+			"name": "Wattpad",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/wattpad/apis.yaml"
+		},
+		{
+			"name": "Pivotal Tracker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/pivotal-tracker/apis.yaml"
+		},
+		{
+			"name": "Steller",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/steller/apis.yaml"
+		},
+		{
+			"name": "Aylien",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/aylien/apis.yaml"
+		},
+		{
+			"name": "Hacker News",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stories/master/_listings/hacker-news/apis.yaml"
+		}
+	]
+}
